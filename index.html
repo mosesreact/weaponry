@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weaponry Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="navbar">
+            <h3> Brand Name </h3>
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+           
+    
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    
+        <div class="menu" id="menu">
+            <div class="menu-item"><a class="nav-link" href="#">Home</a></div>
+            <div class="menu-item"><a class="nav-link" href="#card-container">Products</a></div>
+            <div class="menu-item"><a class="nav-link" href="#card-container">About us</a></div>
+            <div class="menu-item"><a class="nav-link" href="#card-container">Contact</a></div>
+
+            
+        </div>          
+    
+      </header>
+  
+      
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h2>Delivering The Best Products</h2>
+            <p>A compelling description of your weaponry and its benefits. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate odio quos 
+                libero eum incidunt deserunt tenetur, beatae porro repellat. Sint sunt quia, deserunt voluptates 
+                voluptas cupiditate iure saepe placeat earum?</p>
+            <a href="#products" class="hero-button">Explore Our Products</a>
+          </div>
+          <div class="hero-image">
+            <img src="images/5.jpeg" alt="Hero Image">
+          </div>
+        </div>
+      </section>
+
+
+
+
+    <section class="products" id="products">
+        <h2>Our Weaponry</h2>
+        
+        <div class="row">
+            <img src="images/1.jpg" width="25%" height="25%">
+
+            <img src="images/2.jpg" width="25%" height="25%">
+
+            <img src="images/3.jpg" width="25%" height="25%">
+        </div>
+
+
+        <div class="row">
+
+
+            
+            <img src="images/4.jpg" width="25%" height="25%">
+
+            <img src="images/5.jpeg" width="25%" height="25%">
+
+            <img src="images/6.jpg" width="25%" height="25%">
+
+        
+        </div>
+
+        <div class="row">
+
+            <img src="images/7.jpg" width="25%" height="25%">
+
+            <img src="images/8.jpg" width="25%" height="25%">
+
+            <img src="images/9.jpg" width="25%" height="25%">
+
+        </div>
+ </section>
+      
+
+ <section class="contact" id="contact">
+    <h2>Get in Touch</h2>
+    <form action="https://formsubmit.co/freelancemoses4@gmail.com" method="POST" class="contact-form">
+      <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" name="name" id="name" required>
+        <i class="fas fa-user"></i> </div>
+      <div class="form-group">
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" required>
+        <i class="fas fa-at"></i> </div>
+      <div class="form-group">
+        <label for="subject">Subject:</label>
+        <input type="text" name="subject" id="subject" required>
+        <i class="fas fa-bullseye"></i> </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </section>
+
+
+
+
+  <footer class="footer">
+    <div class="container-footer">
+      <div class="footer-content">
+        <div class="copyright">
+          <p>Copyright &copy; 2024 Your Company Name</p>
+        </div>
+        <div class="social-media">
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>

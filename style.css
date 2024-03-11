@@ -1,0 +1,373 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    gap: 18rem;
+    align-items: center;
+    height: 10vh;
+    padding: 1vh 1vw;
+    background: linear-gradient(to right, #ff2f01, #000000, #000000);
+    flex-direction: row;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #333;
+}
+
+
+div {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    color: white;
+}
+
+
+
+
+    /*---------------- Hero Section-------------- */
+
+    .hero {
+        background-color: #212121; /* Dark primary color */
+        color: #fff; /* Text color */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center; /* Center text within hero section */
+        flex-direction: row;
+        height: fit-content;
+        width: 100%;
+        margin-bottom: 3rem;
+      
+
+      }
+      
+      .container {
+        display: flex;
+        flex-direction: row; /* Reverse order on smaller screens */
+        gap: 25rem;
+        width: inherit;
+    }
+      
+      .hero-content {
+        display: flex; /* Allow content to take up available space */
+        flex-direction: column;
+        gap: 2rem;
+        margin: 2rem;
+        width: 50%;
+        height: fit-content;
+
+      }
+      
+      .hero-content h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: #fff;
+      }
+      
+      .hero-content p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        margin-bottom: 2rem;
+        color: #fff;
+      }
+      
+      .hero-button {
+        background-color: #FF0000; /* Red button color */
+        color: #fff;
+        padding: 1rem 2rem;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      
+      .hero-button:hover {
+        background-color: #F00; /* Darker red on hover */
+      }
+      
+      .hero-image {
+        width: 50%; /* Stretch image to container width */
+        object-fit: cover; /* Ensure image fills container */
+        margin: 1rem;        
+    }
+
+    .hero-image img {
+        border: 2px solid yellow;
+        border-radius: 1rem;
+        width: 55%;
+        height: 55%;
+        margin-top: 50px;
+    }
+
+
+
+    /*-----------Products ------------ */
+
+ 
+    /*-----------Products ------------ */
+
+    .products {
+        background-color: #333;
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        padding-top: 3rem;
+    }
+
+    .products h2 {
+        color: white;
+    }
+    .row {
+        display: flex;
+        flex-direction: row;
+        gap: 10rem;
+        margin: 1rem;
+        margin-bottom: 0.6rem;        
+    }
+
+    .products .row img:hover {
+        opacity: 1;
+        width: 29%;
+        height: 29%;
+        transition: 0.5s ease;
+        border:2px solid #ff2f01;
+        border-radius: 4rem;
+    }
+    /*------------Products -------- */
+
+   
+
+
+    /*--------------- */
+
+
+    /*----------------- Contact Fomr -------------------------*/
+
+    .contact {
+        background-color: #212121; /* Dark primary color */
+        color: #fff; /* Text color */
+        padding: 5rem 0;
+        text-align: center;
+        margin-top: 3rem;
+      }
+      
+      .contact-form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+      }
+      
+      .form-group {
+        margin-bottom: 1rem;
+        position: relative;
+      }
+      
+      .form-group label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+      }
+      
+      .form-group input,
+      .form-group textarea {
+        width: 100%;
+        padding: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+      }
+      
+      .form-group input:focus,
+      .form-group textarea:focus {
+        border-color: #FF0000; /* Red border on focus */
+      }
+      
+      .form-group i {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%); /* Center icons vertically */
+        left: -3.5rem;
+        color: #ddd;
+        font-size: 1.2rem;
+      }
+      
+      .submit-btn {
+        background-color: #FF0000; /* Red button color */
+        color: #fff;
+        padding: 1rem 2rem;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin-top: 1rem;
+      }
+      
+      .submit-btn:hover {
+        background-color: #F00; /* Darker red on hover */
+      }
+
+
+
+      .footer {
+        background-color: #212121; /* Dark primary color */
+        color: #fff; /* Text color */
+        padding: 2rem 0;
+        text-align: center;
+        margin-top: 3rem;
+      }
+      
+      .footer-container {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+      }
+      
+      .footer-content {
+        display: flex;
+}
+      
+      .copyright {
+        flex: 9;
+      }
+      
+      .social-media {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+      }
+      
+      .social-media a {
+        margin-left: 1rem;
+        color: #fff;
+        font-size: 1.2rem;
+        transition: all 0.3s ease;
+      }
+      
+      .social-media a:hover {
+        color: #FF0000; /* Red color on hover */
+      }
+
+
+
+
+
+    /* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .hamburger {
+        width: 10vw;
+        height: 5vh;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: red;
+        color: ;
+    }
+
+    
+
+   .hamburger .bar {
+        width: 100%;
+        height: 5px;
+        color: #be4c0a !important;
+        transition: transform 0.4s ease-in-out;
+    }
+
+    .menu {
+        width: 70vw;
+        height: 86vh;
+        padding: 1vh 0vw;
+        background: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 12vh;
+        left: -70vw;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        transition: left 0.4s ease-in-out;
+    }
+
+    .menu-show {
+        left: 0;
+    }
+
+    .menu-item {
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-item:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+
+    /*-------------------- */
+
+    .card-container {
+        display: flex; /* Makes elements display in a row */
+        flex-direction: column; /* Allows cards to wrap to next line if needed */
+        justify-content: center; /* Distributes cards evenly with space */
+        margin: 8rem; /* Adds margin for spacing and centers horizontally */
+        width: 100%; /* Sets container width to 80% */
+        text-align: center;
+      }
+
+      /*----------------------- */
+
+      .container {
+        flex-direction: column; /* Stack content on mobile */
+      }
+    
+      .hero-content {
+        margin-bottom: 2rem;
+      }
+    
+      .hero-image {
+        order: -1; /* Move image below content on mobile */
+      }
+   
+      .products .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+      }
+    
+}
